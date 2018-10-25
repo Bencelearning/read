@@ -27,3 +27,6 @@ print('一共有', len(good), '筆資料提到good') #篩選留言提到 good �
 
 bad = [1 for d in data if 'bad' in d] # 清單 data 中每筆留言提到 bad 就將 1 存入清單 bad
 print('一共有',len(bad), '筆資料提到bad')
+
+boolean = ['like' in d for d in data] #將每一筆 like in d 的運算結果存入清單 boolean 
+print(boolean)
